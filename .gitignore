@@ -1,0 +1,82 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Datasets
+dataset/
+dataset_backup/
+army_uniform_dataset/
+colab_dataset/
+raw_images/
+raw_test/
+annotation_test/
+
+# Predictions and generated output
+*_predictions/
+runs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Large files
+*.mp4
+*.zip
+
+# Personal and sensitive data
+faces/
+number_plate_test/
+tank_oiv7_test/
+zones/
+zone.json
+VIDEO*WEBCAM*CCTV.txt
+
+# Test images
+night_test.jpg
+test.jpg
+
+# Datasets
+dataset/
+dataset_backup/
+army_uniform_dataset/
+colab_dataset/
+raw_images/
+raw_test/
+annotation_test/
+
+# Generated predictions
+*_predictions/
+runs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Large files
+*.mp4
+*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Old backup scripts
+pipeline_backup_*.py
+
+# Unnamed test file
+YOLODetector Test
+
+# Python cache
+__pycache__/
+*.py[cod]
