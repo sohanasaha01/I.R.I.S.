@@ -1,3 +1,4 @@
+
 # IRIS – Intelligent Recognition and Inspection System
 
 **IRIS** is a computer vision project designed to explore object detection, image processing, recognition, and threat-analysis workflows using Python.
@@ -25,45 +26,6 @@ The project contains modules for detection, classification, image preprocessing,
 - Computer Vision
 - Machine Learning
 - Image Processing
-
-*Additional libraries and model dependencies should be documented in `requirements.txt`.*
-
-## Project Structure
-
-```text
-IRIS/
-│
-├── annotate.py
-├── army_uniform_classifier.py
-├── backend.py
-├── benchmark.py
-├── detector.py
-├── face_recognizer.py
-├── frame_source.py
-├── geofence.py
-├── night_vision.py
-├── pipeline.py
-├── preprocessing.py
-├── train_army_uniform.py
-├── validate_labels.py
-├── yolo_detector.py
-├── zone_selector.py
-│
-├── edge/
-│   └── threat_engine/
-│       ├── threat_engine.py
-│       └── test_threat_engine.py
-│
-├── test_8class_model.py
-├── test_army_classifier.py
-├── test_detector.py
-├── test_face_recognition.py
-├── test_geofence.py
-├── test_helicopter.py
-├── test_ingestion.py
-├── test_preprocessing.py
-└── test_yolo_detector.py
-```
 
 ## Installation
 
@@ -94,7 +56,7 @@ If a `requirements.txt` file is available:
 pip install -r requirements.txt
 ```
 
-Otherwise, install the dependencies required by the individual modules. OpenCV is one confirmed dependency:
+Otherwise, install the dependencies required by the individual modules.
 
 ```bash
 pip install opencv-python
@@ -102,29 +64,23 @@ pip install opencv-python
 
 ## Running a YOLO Detection Test
 
-The YOLO detector test accepts an image path as a command-line argument.
-
 ```bash
 python test_yolo_detector.py path/to/your/image.jpg
 ```
 
-Make sure that:
-- The required Python dependencies are installed.
-- The YOLO model weights are available locally.
-- The image path is valid.
-- The model configuration matches the detector implementation.
+Make sure the required dependencies, model weights, and configuration are available.
 
 ## Model Weights and Datasets
 
 Large model weights, datasets, generated predictions, videos, and private data are intentionally excluded from this Git repository.
 
-Obtain the required model files from their authorized sources and place them in the locations expected by the relevant scripts.
+Obtain required model files from their authorized sources.
 
 Do not upload private images, biometric data, credentials, or restricted datasets.
 
 ## Testing
 
-The repository includes test scripts covering several components:
+The repository includes test scripts covering several components.
 
 ```bash
 python test_detector.py
@@ -155,7 +111,3 @@ Use the project only with appropriate authorization, respect privacy and applica
 **Sohana Saha**
 
 GitHub: [@sohanasaha01](https://github.com/sohanasaha01)
-
----
-
-*IRIS – Computer Vision and Intelligent Detection Project*
